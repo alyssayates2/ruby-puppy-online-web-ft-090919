@@ -29,6 +29,6 @@ class Dog
   #     self.all.clear
   # end
 
-    
+
 
 end

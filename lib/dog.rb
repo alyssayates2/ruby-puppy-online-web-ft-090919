@@ -16,4 +16,3 @@ class Dog
     end
 
 end
-self.print_all

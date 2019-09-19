@@ -2,12 +2,13 @@ class Dog
 
   attr_accessor :name
   @@all = []
-  @@count = 0
 
+def self.new(name)
 def initialize(name)
   @name = name
   @name <<  @@all
 end
+end 
 def self.all
   @@all
 end

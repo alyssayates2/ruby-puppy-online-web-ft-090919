@@ -11,7 +11,7 @@ class Dog
     @@all
   end
 
-  def self.destroy_all
+  def Dog.clear_all
       self.all.clear
     end
     

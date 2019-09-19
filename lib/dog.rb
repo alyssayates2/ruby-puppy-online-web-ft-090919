@@ -5,7 +5,7 @@ class Dog
   def self.new(name)
   end
 
-  def self.all
+  def Dog.all
     return Dog
   end 
 

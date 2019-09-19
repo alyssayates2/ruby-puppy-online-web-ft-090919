@@ -19,7 +19,9 @@ class Dog
   end
 
   def name
-    pluto.name = Dog.new("Pluto")
+    new_dog = Dog.new
+    Dog.new = pluto.name
+    pluto.name = "Pluto"
   end
 
   def Dog.clear_all

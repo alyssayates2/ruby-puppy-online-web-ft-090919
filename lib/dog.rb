@@ -10,7 +10,7 @@ def initialize(name)
 end
 end
 def Dog.all
-return  @@all
+
 end
 
 end

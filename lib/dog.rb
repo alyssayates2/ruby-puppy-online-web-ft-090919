@@ -18,14 +18,14 @@ class Dog
     end
   end
 
-  def name 
+  def name
     pluto.name = Dog.new("Pluto")
-  end 
+  end
 
   def Dog.clear_all
       self.all.clear
   end
 
-  
+
 
 end

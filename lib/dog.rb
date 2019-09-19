@@ -21,7 +21,7 @@ class Dog
       self.all.each{|dog| puts "#{dog.name}"}
     end
 
-  end 
+  end
 
   def Dog.clear_all
       self.all.clear

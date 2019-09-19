@@ -10,7 +10,7 @@ class Dog
     def save
     @name = name
     @@all << self
-    end 
+    end
   end 
   end
 

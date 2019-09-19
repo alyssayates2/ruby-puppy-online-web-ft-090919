@@ -7,6 +7,6 @@ class Dog
 
   def Dog.all
     return Dog
-  end 
+  end
 
 end

@@ -23,9 +23,9 @@ class Dog
 
     def save
       def initialize(name)
-    @name ="Pluto"
+    @name = name 
     @@all << self
       end
     end
-
+dogs = Dog.new("Pluto")
 end

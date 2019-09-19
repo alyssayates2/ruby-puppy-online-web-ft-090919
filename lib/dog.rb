@@ -3,6 +3,6 @@ class Dog
   def self.new(name)
   end
 
-  def self.all(Dog)
+  def self.all
   end 
 end

@@ -16,5 +16,6 @@ class Dog
     end
 
     def Dog.print_all
+      return :name 
     end 
 end

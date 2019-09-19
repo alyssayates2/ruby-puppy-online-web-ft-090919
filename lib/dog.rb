@@ -23,7 +23,7 @@ class Dog
 
     def save
       def initialize(name)
-    @name = Pluto
+    @name ="Pluto"
     @@all << self
       end
     end

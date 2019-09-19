@@ -18,6 +18,10 @@ class Dog
     end
   end
 
+  def name 
+    pluto.name = Dog.new("Pluto")
+  end 
+
   def Dog.clear_all
       self.all.clear
   end

@@ -19,10 +19,5 @@ class Dog
     self.all.each{|dog| puts "#{dog.name}"}
   end
 
-  def self.create(name)
-     dog = self.new
-     dog.name = name
-     @@all << dog
-   end
 
 end

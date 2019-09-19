@@ -15,7 +15,7 @@ class Dog
       self.all.clear
     end
 
-    def print_all
+    def Dog.print_all
     puts Dog.print_all
     end
 end
